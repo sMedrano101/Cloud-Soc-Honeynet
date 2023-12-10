@@ -19,9 +19,9 @@ Data Sources:
 
 Workflow:
 
--Measured security metrics in an insecure environment for 24 hours.
--Applied security controls to harden the environment.
--Measured metrics again for 24 hours.
+-Measured security metrics in an insecure environment for 24 hours
+-Applied security controls to harden the environment
+-Measured metrics again for 24 hours
 
 
 ## Architecture Before Hardening / Security Controls
