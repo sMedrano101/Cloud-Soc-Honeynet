@@ -11,17 +11,17 @@ Welcome to my Soc + Honeynet in Azure Project! I've built a compact honeynet in 
 
 Data Sources:
 
-*SecurityEvent (Windows Event Logs)
-*Syslog (Linux Event Logs)
-*SecurityAlert (Log Analytics Alerts)
-*SecurityIncident (Sentinel Incidents)
-*AzureNetworkAnalytics_CL (Malicious Flows)
+-SecurityEvent (Windows Event Logs)
+-Syslog (Linux Event Logs)
+-SecurityAlert (Log Analytics Alerts)
+-SecurityIncident (Sentinel Incidents)
+-AzureNetworkAnalytics_CL (Malicious Flows)
 
 Workflow:
 
-*Measured security metrics in an insecure environment for 24 hours.
-*Applied security controls to harden the environment.
-*Measured metrics again for 24 hours.
+-Measured security metrics in an insecure environment for 24 hours.
+-Applied security controls to harden the environment.
+-Measured metrics again for 24 hours.
 
 
 ## Architecture Before Hardening / Security Controls
