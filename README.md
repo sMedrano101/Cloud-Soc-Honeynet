@@ -6,8 +6,8 @@
 
 ## Introduction
 
-Soc + Honeynet in Azure Project
-Welcome to my Azure Honeynet project! I've built a compact honeynet in Azure, integrating logs from various sources into a Log Analytics workspace for Microsoft Sentinel. The project involves:
+
+Welcome to my Soc + Honeynet in Azure Project! I've built a compact honeynet in Azure, integrating logs from various sources into a Log Analytics workspace for Microsoft Sentinel. The project involves:
 
 Data Sources:
 
