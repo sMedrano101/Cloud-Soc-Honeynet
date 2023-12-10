@@ -39,7 +39,7 @@ For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL t
 ## Attack Maps Before Hardening / Security Controls
 
 ![image](https://github.com/sMedrano101/Cloud-Soc-Honeynet/assets/60121429/3f4aeb20-f39c-4015-97f9-f63f00bb4ec4)<br>
-![image](https://github.com/sMedrano101/Cloud-Soc-Honeynet/assets/60121429/cdf918fc-4dc0-43e4-b7a4-59e99a4c3a97)<br>
+![image](https://github.com/sMedrano101/Cloud-Soc-Honeynet/assets/60121429/229c8e6b-54df-4492-a1a0-24aba013bf4a)<br>
 ![image](https://github.com/sMedrano101/Cloud-Soc-Honeynet/assets/60121429/112f0ebb-996d-4d99-ae6b-8eb62ccb4645)<br>
 ![image](https://github.com/sMedrano101/Cloud-Soc-Honeynet/assets/60121429/19a0bfe5-6ea3-4aec-ad3f-504fe1c0af44)<br>
 
