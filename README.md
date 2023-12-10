@@ -32,13 +32,15 @@ Workflow:
 ![image](https://github.com/sMedrano101/Cloud-Soc-Honeynet/assets/60121429/9d75b355-da8a-40b8-8840-87f9aea9f85b)
 
 
-The architecture of the mini honeynet in Azure consists of the following components:
+The architecture of the mini honeynet in Azure consists of the following Azure components and regulations:
 
 - Virtual Network (VNet)
 - Network Security Group (NSG)
 - Virtual Machines (2 windows, 1 linux)
-- Log Analytics Workspace
+- Log Analytics Workspace KQL Queries
 - Azure Key Vault
+- NIST SP 800-53 Revision 5 for Security Controls
+- NIST SP 800-61 Revision 2 for Incident Handling Guidance
 - Azure Storage Account
 - Microsoft Sentinel
 
@@ -91,6 +93,9 @@ Stop Time	12/9/2023 0:46:46
 
 ## Conclusion
 
-In this project, a mini honeynet was constructed in Microsoft Azure and log sources were integrated into a Log Analytics workspace. Microsoft Sentinel was employed to trigger alerts and create incidents based on the ingested logs. Additionally, metrics were measured in the insecure environment before security controls were applied, and then again after implementing security measures. It is noteworthy that the number of security events and incidents were drastically reduced after the security controls were applied, demonstrating their effectiveness.
 
-It is worth noting that if the resources within the network were heavily utilized by regular users, it is likely that more security events and alerts may have been generated within the 24-hour period following the implementation of the security controls.
+In this project, a compact honeynet was built in Microsoft Azure, and log sources were seamlessly integrated into a Log Analytics workspace. Microsoft Sentinel played a crucial role in triggering alerts and generating incidents based on the ingested logs. 
+
+The project involved measuring metrics in the insecure environment before and after implementing security controls. Notably, the application of security measures led to a significant reduction in the number of security events and incidents, underscoring their effectiveness.
+
+It's important to acknowledge that if the network resources were extensively used by regular users, there might have been an increase in security events and alerts within the 24-hour period following the implementation of the security controls.
